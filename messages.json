@@ -1,0 +1,8 @@
+{
+    "welcome": "HI, this bot can download videos from Youtube Shorts, Youtube, TikTok, Instagram Reels\nSend url and wait :)\n\nCreated by @hlnikniky1111\nGithub: https://github.com/Sesdear/Video-Downloader-Bot",
+    "unrecognized_link": "❌ Нераспознанная ссылка. Поддерживаются: YouTube, TikTok, Instagram",
+    "downloading_start": "⏳ Начинаю скачивание...",
+    "file_not_found": "❌ Файл не найден после скачивания",
+    "empty_file": "❌ Скачанный файл пустой или не найден",
+    "error_downloading": "❌ Ошибка скачивания:\n`{error}`"
+}

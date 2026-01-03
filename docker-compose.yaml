@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  name:
+    build: .
+    container_name: tg_Videos_downloader_bot
+    restart: always
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
