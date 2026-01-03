@@ -26,7 +26,7 @@ async def cmd_link_export(message: Message):
     if not link:
         return
 
-    domain = split_link(link)
+    domain = await split_link(link)
     if domain not in supported_domains:
         await message.answer(UNRECOGNIZED_LINK)
         return
