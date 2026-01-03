@@ -10,7 +10,7 @@ BOT_TOKEN: str = str(os.getenv("BOT_TOKEN"))
 #####################################
 ######### Messages
 
-with open('message.json', 'r') as f:
+with open('./messages.json', 'r') as f:
     _msgs = json.load(f)
 
 WELCOME_MSG: str = _msgs["welcome"]

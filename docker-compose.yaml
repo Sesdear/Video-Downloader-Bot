@@ -5,6 +5,7 @@ services:
     container_name: tg_Videos_downloader_bot
     restart: always
     volumes:
+      - ./messages.json:/app/messages.json:ro
       - .:/app
     environment:
       - BOT_TOKEN=${BOT_TOKEN}
