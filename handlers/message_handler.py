@@ -45,6 +45,7 @@ async def cmd_link_export(message: Message):
             'format': 'best[height<=720]/best',
             'outtmpl': str(output_path),
             'noplaylist': True,
+            'cookiefile': 'cookies.txt',
         }
 
         with yt_dlp.YoutubeDL(ydl_opts) as ydl: #type: ignore
