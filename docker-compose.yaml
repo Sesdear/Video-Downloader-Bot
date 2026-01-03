@@ -7,4 +7,4 @@ services:
     volumes:
       - .:/app
     environment:
-      - DEBUG=${DEBUG}
+      - BOT_TOKEN=${BOT_TOKEN}
