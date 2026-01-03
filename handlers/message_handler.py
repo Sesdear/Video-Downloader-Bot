@@ -52,7 +52,7 @@ async def cmd_link_export(message: Message):
             title = info_dict.get('title', 'Unknown') or 'Unknown'
             duration = info_dict.get('duration', 0) or 0
             uploader = info_dict.get('uploader', 'Unknown') or 'Unknown'
-            duration_str = f"{duration//60}:{duration%60:02d}"
+            duration_str = f"{int(duration // 60)}:{int(duration % 60):02d}"
 
             await message.answer(
                 f"📹 **{title}**\n"
